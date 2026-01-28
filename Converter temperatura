@@ -1,0 +1,9 @@
+#entrada de dados
+c = input("Digite temperatura em graus celcius: ")
+conv = any
+
+#processamento
+conv = ((9 * (float(c))) + 160) / 5
+
+#saida de dados
+print(str(c),"C°, equivale a ", conv,"F°")
