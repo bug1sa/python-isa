@@ -1,0 +1,9 @@
+#entrada de dados
+km = int(input("digite a distância percorrida: "))
+l = int(input("digite quantos litros abasteceu: "))
+
+#processamento
+media = int(km) / int(l) 
+
+#saida de dados
+print("Seu consumo médio de combustível é "+ str(media))
