@@ -1,0 +1,14 @@
+#entrada de dados
+numero1 = input("Digite um número inteiro: ")
+numero2 = input("Digite outro número inteiro: ")
+resto = any
+
+#processamento
+x = int(numero1) // int(numero2)
+
+#comando para resto
+resto = int(numero1) % int(numero2)
+
+#saida de dados
+print("O resultado da divisão é: ", x)
+print("E o resto da dívsão é: " + str(resto))
