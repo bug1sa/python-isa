@@ -1,0 +1,7 @@
+x = int(input("Até que número quer somar?")) 
+cont = 0
+soma = 0
+while cont <= int(x):
+    soma = soma + x
+    cont = cont + 1
+print("A soma de todos os números, do 1 ou que você escolheu, é: ", soma) 
