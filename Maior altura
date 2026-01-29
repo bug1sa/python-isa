@@ -1,0 +1,8 @@
+maior_altura = 0
+while True:
+    altura = float(input("Informe primeira altura: "))
+    if altura == 0:
+        break
+    elif altura > maior_altura:
+        maior_altura = altura * 1
+print("A maior altura é: ", maior_altura)
