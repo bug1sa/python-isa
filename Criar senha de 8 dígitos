@@ -1,0 +1,7 @@
+while True:
+    senha = input("Digite uma senha de 8 caracteres ou mais: ")
+    if len(senha) < 8:
+        print("Senha muito curta. Tente novamente: ")
+    else:
+        break 
+print("Senha cadastrada com sucesso!") 
