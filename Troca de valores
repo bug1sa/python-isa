@@ -1,0 +1,10 @@
+#entrada de dados
+numeroa = input("Digite um número para A: ")
+numerob = input("Digite um número para B: ")
+b = any
+
+#processamento 
+b = int(numeroa)
+
+#saida
+print("Agora A e B trocam! A vira: " + str(numerob), "e B vira: " + str(b))
